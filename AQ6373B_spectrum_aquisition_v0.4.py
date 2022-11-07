@@ -306,7 +306,7 @@ if __name__ == '__main__':
 
                 #register wavelength at the initial measurement i = 0
                 if i == 0:
-                    logfile.write(f"Wavelength (nm), {x}")
+                    logfile.write(f"Temperature (℃), {x}")
                     #logfile.write(f"T = {hour_round} (h),{y}")
                     logfile.write(f"{hour_round},{y}")
                 else:
